@@ -2,11 +2,13 @@
 Design of 7nm IO and Challenges faced while making
 
 ## Layout Screenshot of complete IO
-<img width="1853" height="990" alt="Screenshot from 2026-11-19 10-42-52" src="https://github.com/user-attachments/assets/5f4d7ef2-e13b-4c68-89fd-402c347ea3fe" />
+<img width="1463" height="473" alt="image" src="https://github.com/user-attachments/assets/5ef37a8b-76f4-41ae-a099-e1dab8b5943c" />
+
 
 
 ## Schematic of IO Circuitry
-<img width="741" height="827" alt="image" src="https://github.com/user-attachments/assets/01649c59-2d5b-4d64-b874-21c0353277e3" />
+<img width="1187" height="1325" alt="Black-and-White SRAM Circuit Schematic" src="https://github.com/user-attachments/assets/609dde32-bacd-45f0-b96d-714d1bb841b3" />
+
 
 IO Schematic majorly has the following segment which needs to be take care while making the IO Layout
 
@@ -23,7 +25,8 @@ A) Circuit Common to Read and Write
       ► Mux signal should be connected symmetrical to BT and BC to cancel coupling
 
 ## Layout Screenshot of Precharge and Mux
-<img width="1853" height="990" alt="Screenshot from 2026-11-19 10-43-15" src="https://github.com/user-attachments/assets/efa97833-a352-4e3e-bda0-6340bb0b5ba3" />
+<img width="1463" height="473" alt="image" src="https://github.com/user-attachments/assets/89acbce9-e8ad-4bda-b2e6-19aec23e4890" />
+
 
 
 B) Circuit Specific to Read
@@ -47,10 +50,12 @@ B) Circuit Specific to Read
       ► To made near boundary of IO layout to have easy access to Q
 
 ## Layout Screenshot of Sense Amplifier with common centroid matching
-<img width="1853" height="990" alt="Screenshot from 2026-11-19 10-48-03" src="https://github.com/user-attachments/assets/dd771b79-1932-4ac3-93cd-e29fd2372ca5" />
+<img width="432" height="628" alt="WhatsApp Image 2026-11-19 at 16 22 01" src="https://github.com/user-attachments/assets/34501d04-9a75-40c8-918f-6587c222e932" />
+
 
 ## Layout Screenshot of Read circuitry
-<img width="1853" height="990" alt="Screenshot from 2026-11-19 10-52-28" src="https://github.com/user-attachments/assets/a21ba0f7-0c23-4da5-b3c3-61644f5ac59d" />
+<img width="589" height="692" alt="image" src="https://github.com/user-attachments/assets/484faa3a-66b6-46e8-9f1c-1d98fbdc43d5" />
+
 
 
 C) Circuit Specific to Write
@@ -59,6 +64,7 @@ C) Circuit Specific to Write
     ► Bit lines should not be exposed to signal while connecting write mux or write driver
     ► Data Latch to be made near boundary of IO layout to have easy access to Data and Mask pins
 ## Layout Screenshot of Write Circuitry
-<img width="1853" height="990" alt="Screenshot from 2026-11-19 10-52-46" src="https://github.com/user-attachments/assets/b1fabb46-9d3b-4db6-bbad-940a9ca0374d" />
+<img width="1354" height="719" alt="image" src="https://github.com/user-attachments/assets/c29c70b5-3e6c-44c4-9fc7-5d56a7de2d72" />
+
 
 
