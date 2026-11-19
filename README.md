@@ -7,6 +7,10 @@ Design of 7nm IO and Challenges faced while making
 
 IO Schematic majorly has the following segment which needs to be take care while making the IO Layout
 
+## Schematic of IO Circuitry
+<img width="741" height="827" alt="image" src="https://github.com/user-attachments/assets/01649c59-2d5b-4d64-b874-21c0353277e3" />
+
+
 A) Circuit Common to Read and Write
 
     1. Pre-charge and equalizer
