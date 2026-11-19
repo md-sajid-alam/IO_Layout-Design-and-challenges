@@ -5,11 +5,10 @@ Design of 7nm IO and Challenges faced while making
 <img width="1853" height="990" alt="Screenshot from 2026-11-19 10-42-52" src="https://github.com/user-attachments/assets/5f4d7ef2-e13b-4c68-89fd-402c347ea3fe" />
 
 
-IO Schematic majorly has the following segment which needs to be take care while making the IO Layout
-
 ## Schematic of IO Circuitry
 <img width="741" height="827" alt="image" src="https://github.com/user-attachments/assets/01649c59-2d5b-4d64-b874-21c0353277e3" />
 
+IO Schematic majorly has the following segment which needs to be take care while making the IO Layout
 
 A) Circuit Common to Read and Write
 
